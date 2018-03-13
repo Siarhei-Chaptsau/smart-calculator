@@ -24,8 +24,8 @@
   }
 
   pow(number) {
-    //this.value = this.value + " ** " + number;
-    this.value = "Math.pow(" + this.value + "," + number.toString() + ")";
+    this.value = this.value + " ** " + number;
+    //this.value = "Math.pow(" + this.value + "," + number + ")";
     return this;
   }
 
